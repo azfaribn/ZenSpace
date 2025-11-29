@@ -9,7 +9,7 @@
 <img width="955" height="729" alt="Screenshot 2025-11-29 095914" src="https://github.com/user-attachments/assets/af0037b5-f2c1-42d5-ada6-d59f62c5c041" />
 
 
-🔗 **Live Demo:** [Klik di sini untuk mencoba](https://azfaribn.github.io/zenspace/) *(Ganti link ini setelah deploy)*
+🔗 **Live Demo:** [Klik di sini untuk mencoba](https://azfaribn.github.io/ZenSpace/) *(Ganti link ini setelah deploy)*
 
 ---
 
