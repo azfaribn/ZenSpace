@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZenSpace | Ambient Focus Mixer</title>
     
-    <!-- Libraries -->
+    <!-- 1. Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- 2. Font Outfit -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- 3. React & Babel -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- 4. Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="https://unpkg.com/lucide-react@latest"></script>
 
@@ -25,7 +31,9 @@
 <body>
     <div id="root"></div>
 
+    <!-- SCRIPT APLIKASI -->
     <script type="text/babel">
+        // 1. SETUP VARIABEL DARI LIBRARY (PENTING UNTUK VERCEL)
         const { useState, useEffect, useRef } = React;
         const { Volume2, VolumeX, Play, Pause, RefreshCw, CloudRain, Trees, Coffee, Keyboard, Music, Github, Heart } = lucideReact;
 
