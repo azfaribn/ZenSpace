@@ -6,7 +6,10 @@
 
 **ZenSpace** adalah aplikasi produktivitas berbasis web yang menggabungkan *ambient sound mixer* dengan *Pomodoro Timer*. Aplikasi ini dirancang untuk membantu pengguna mencapai kondisi "Deep Work" atau relaksasi dengan menciptakan lingkungan suara yang dipersonalisasi.
 
-🔗 **Live Demo:** [Klik di sini untuk mencoba](https://azfaribn.github.io/zenspace-portfolio/) *(Ganti link ini setelah deploy)*
+<img width="955" height="729" alt="Screenshot 2025-11-29 095914" src="https://github.com/user-attachments/assets/af0037b5-f2c1-42d5-ada6-d59f62c5c041" />
+
+
+🔗 **Live Demo:** [Klik di sini untuk mencoba](https://azfaribn.github.io/zenspace/) *(Ganti link ini setelah deploy)*
 
 ---
 
@@ -60,7 +63,7 @@ Cara termudah untuk men-deploy aplikasi React/Vite adalah menggunakan Vercel:
 
 1.  Push kode Anda ke repository GitHub.
 2.  Buka [Vercel](https://vercel.com).
-3.  **Add New Project** -> Import repository `zenspace-portfolio` tadi.
+3.  **Add New Project** -> Import repository `zenspace` tadi.
 4.  Vercel akan otomatis mendeteksi **Vite**.
 5.  Klik **Deploy**.
 
