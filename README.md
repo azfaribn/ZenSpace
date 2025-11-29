@@ -27,10 +27,10 @@
 
 Project ini dibangun menggunakan ekosistem **React** modern:
 
-* **React.js** (Hooks & Components)
-* **Tailwind CSS** (Styling & Responsive Design)
-* **Lucide React** (Ikonografi Modern)
-* **Vite** (Build Tool Super Cepat)
+* **React** (CDN, Hooks-based components)
+* **Tailwind CSS via CDN** (Styling & Responsive Design)
+* **Single-file HTML** (tanpa bundle)
+
 
 ---
 
