@@ -1,1 +1,74 @@
+# 🌿 ZenSpace | Ambient Focus Mixer
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+![Technology](https://img.shields.io/badge/React-Vite-blue)
+
+**ZenSpace** adalah aplikasi produktivitas berbasis web yang menggabungkan *ambient sound mixer* dengan *Pomodoro Timer*. Aplikasi ini dirancang untuk membantu pengguna mencapai kondisi "Deep Work" atau relaksasi dengan menciptakan lingkungan suara yang dipersonalisasi.
+
+🔗 **Live Demo:** [Klik di sini untuk mencoba](https://azfaribn.github.io/zenspace-portfolio/) *(Ganti link ini setelah deploy)*
+
+---
+
+## ✨ Fitur Utama
+
+* 🎧 **Custom Audio Mixer:** 5 channel suara terpisah (Hujan, Hutan Malam, Kafe, Mengetik ASMR, Lo-Fi Beat) dengan kontrol volume independen.
+* 🍅 **Pomodoro Timer:** Timer fokus terintegrasi dengan mode "Focus" (25 menit) dan "Break" (5 menit).
+* 🎨 **Glassmorphism UI:** Antarmuka modern yang tenang dengan efek kaca (*blur*) dan tema gelap (*Dark Mode*) yang nyaman di mata.
+* 📱 **Responsif:** Berjalan mulus di Desktop dan Mobile.
+* ⚡ **Real-time State:** Pengaturan volume dan timer yang responsif tanpa lag.
+
+---
+
+## 🛠️ Teknologi
+
+Project ini dibangun menggunakan ekosistem **React** modern:
+
+* **React.js** (Hooks & Components)
+* **Tailwind CSS** (Styling & Responsive Design)
+* **Lucide React** (Ikonografi Modern)
+* **Vite** (Build Tool Super Cepat)
+
+---
+
+## 🚀 Cara Menjalankan (Lokal)
+
+Karena menggunakan React & Vite, Anda memerlukan Node.js terinstall di komputer.
+
+1.  **Clone Repository:**
+    ```bash
+    git clone [https://github.com/azfaribn/zenspace.git](https://github.com/azfaribn/zenspace.git)
+    cd zenspace-portfolio
+    ```
+
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Jalankan Server Lokal:**
+    ```bash
+    npm run dev
+    ```
+    * Buka browser di link yang muncul (biasanya `http://localhost:5173`).
+
+---
+
+## ☁️ Cara Deploy ke Vercel (Rekomendasi)
+
+Cara termudah untuk men-deploy aplikasi React/Vite adalah menggunakan Vercel:
+
+1.  Push kode Anda ke repository GitHub.
+2.  Buka [Vercel](https://vercel.com).
+3.  **Add New Project** -> Import repository `zenspace-portfolio` tadi.
+4.  Vercel akan otomatis mendeteksi **Vite**.
+5.  Klik **Deploy**.
+
+*(Alternatif: Bisa juga menggunakan GitHub Pages melalui menu Settings -> Pages -> Source: GitHub Actions).*
+
+---
+
+## 📝 Lisensi
+
+Project ini dilisensikan di bawah **MIT License**.
+Dibuat dengan ❤️ oleh **[Azfaribn](https://github.com/azfaribn)**.
